@@ -17,7 +17,7 @@ for i in range (len(numeros)):
             temp = numeros[n+1]
             numeros[n+1] = numeros[n]
             numeros[n] = temp
-print(numeros)
+print(f"Os números em ordem crescente são: {numeros}")
 
 
 
