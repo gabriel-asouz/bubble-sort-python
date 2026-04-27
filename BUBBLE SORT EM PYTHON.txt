@@ -1,0 +1,45 @@
+BUBBLE SORT EM PYTHON
+
+Esse projeto foi um exercício de lógica de programação em python. O programa permite que o usuário insira uma lista dinâmica de números inteiros e a organize em ordem crescente.
+
+#FUNCIONALIDADES:
+
+- Entrada dinâmica: Aceita qualquer quantidade de números até que o usuário opte por encerrar.
+- Tratamento de erros: Valida se a entrada é um número inteiro ou o comando de saída
+- Ordenação estável: Utiliza a loja de trocas adjacentes com uma variável auxiliar para organizar o vetor
+
+#COMO FUNCIONA:
+
+O algoritmo lê o vetor várias vezes. Em cada uma de suas passagens ele compara os elementos vizinhos:
+1. Se o elemento da direita (n+1) for menor que o da esquerda (n), eles trocam de lugar
+2. O maior elemento "flutua" para o final do vetor a cada interação, como uma bolhar de ar na agua
+
+-ESTRUTURA DE REPETIÇÃO
+
+Laço externo(for i in range): Faz com que o processo seja repetido a quantidade de vezes necessárias para que os números alcancem seus devidos lugares.
+
+Laço interno(for n in range): Compara os valores e realiza as trocas individuais entre os indices
+
+#TECNOLOGIAS UTILIZADAS:
+
+- Python 3
+- Lógica de Vetores (Arrays)
+- Estruturas de controle: while, for, try/except
+
+#COMO EXECUTAR:
+
+1. Certifique-se de ter o python instalado na sua máquina
+2. Copie o código ou abra o arquivo bubble_sort.py
+3. Execute o script no terminal: python bubble_sort.py
+4. Digite os números desejados e pressione "X" para ver o resultado ordenado.
+
+#EXEMPLO DE USO:
+
+Entrada: [100, 99, 98]
+
+Processamento:
+- Comparação 100 > 99 (Troca) -> [99, 100, 98]
+- Comparação 100 > 98 (Troca) -> [99, 98, 100]
+- Nova rodada. Comparação 99 > 98 (Troca) -> [98, 99, 100]
+
+Saída: [98, 99, 100]
